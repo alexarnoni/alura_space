@@ -8,7 +8,7 @@ class LoginForms(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': 'Ex.: João Silva',
+                'placeholder': 'Ex.: Alexandre Arnoni',
             }
         )
     )
@@ -32,7 +32,7 @@ class CadastroForms(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': 'Ex.: João Silva',
+                'placeholder': 'Ex.: Alexandre Arnoni',
             }
         )
     )
@@ -43,7 +43,7 @@ class CadastroForms(forms.Form):
         widget=forms.EmailInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': 'Ex.: joaosilva@xpto.com',
+                'placeholder': 'Ex.: alexandre@email.com',
             }
         )
     )
